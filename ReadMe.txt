@@ -1,5 +1,17 @@
-There are three package file:
+Project Introduction:
+In multi-target prediction, an instance has to be classified along multiple target variables at the same time, where each target represents categories or numerical values. There are several strategies to tackle multi-target prediction problems: the local strategy learns a separate model for each target variable independently, while the global strategy learns a single model for all target variables together. Under this project, you have to first define the machine learning strategy (local or global) and then should predict (using different techniques such as multi-target regression, multi-target classification, or hierarchical multi-label classification) the driver’s behaviour according to various parameters such as weather condition, driver rush, driver well-being and so forth.
 
+Reference and dataset:
+
+
+Dataset: https://www.kaggle.com/vitorrf/cartripsdatamining
+
+Reference paper: https://www.sciencedirect.com/science/article/pii/S003132031200430X
+
+
+
+
+There are three package file:
 Code:
     Which including "Global Model.ipynb" file and "Clustering.ipynb" files
     
@@ -29,4 +41,9 @@ Models:
     RandomForest_DriverWellbeing: Random forest model, target variagble is driver wellbeing
     RandomForest_RainIntensity: Random forest model, target variable is rain intensity
     RandomForest_VehicleSpeed: Random forest model, target variable is vehicle speed
+
+
+
+
+
     
